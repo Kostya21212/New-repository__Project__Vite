@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: "<Project__Vite__Portfolio>/",
+    base: "/New-repository__Project__Vite/",
 })
