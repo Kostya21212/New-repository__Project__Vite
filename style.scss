@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1{
+    color: red;
+    &::after{
+        content: 'Hello from content';
+    }
+}

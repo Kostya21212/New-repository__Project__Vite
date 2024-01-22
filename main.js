@@ -1,13 +1,8 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
+import './style.scss'
 
 
-document.querySelector('#app').innerHTML = `
-<h1 className="text-3xl font-bold underline">
+
+document.querySelector('#app').innerHTML = /*html*/`
+<h1 class="text-3xl font-bold underline text-blue-400">
       Hello world!
-</h1>
-
-`
-
-setupCounter(document.querySelector('#counter'))
+</h1>`;
